@@ -1,0 +1,284 @@
+body{
+    background-image:url("../images/bg-header.png");
+
+       min-height: 380px;
+
+
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: 14px; 
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Poppins';
+}
+.footer.content{
+    background-color: #262626 !important;
+    background-image: url("../images/bg-footer.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+.page-footer .links{
+    display: inline-block;
+}
+
+.row{
+    position: relative;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+h4{
+    color: #fff;
+    border-bottom-color: #a7a452;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 18px 0 12px 0;
+    margin: 0 0 22px 0;
+    display: inline-block;
+    border-bottom: 2px solid #a7a452;
+}
+
+@media (min-width: 768px)
+.col-sm-12 {
+    width: 100%;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 10px 0;
+    clear: both;
+}
+
+a {
+    color: #737373;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    /*color: white;*/
+  color: #a9a654;
+    text-decoration:none;
+}
+
+
+.footer-block{
+    padding: 13px;
+}
+
+.list{
+    margin: 20px;
+  padding-left: 40px;
+}
+
+.nav-sections{
+    background: transparent     !important;
+}
+
+.navigation{
+    background: none    !important;
+    color: white    !important;
+}
+
+.navigation .level0 > .level-top {
+    color:white !important;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/*color: #a9a654;*/
+
+
+.nav-sections{
+
+    padding-top: 25px   !important;  
+    padding-left: 30px  !important;
+}
+
+.nav-sections.ui-menu-item:hover{
+  color: #a9a654  !important;
+}
+
+.footer .copyright, .footer .bugs{
+  color: white;
+}
+
+
+.page-header .panel.wrapper {
+
+  background: black;
+}
+
+.panel.header .links, .panel.header .switcher {
+    color: grey;
+}
+
+
+/*a:visited, .alink:visited {
+    color: grey;
+}*/
+
+.account-link {
+  display: inline-block;
+ font: normal normal normal 14px/1 FontAwesome;
+ font-size: inherit;
+ text-rendering: auto;
+ -webkit-font-smoothing: antialiased;
+ float: right   !important;
+
+}
+.account-link:before {
+  content: "\f007";
+  /*padding-right: 5px;*/
+}
+
+
+
+
+
+.cnews .col-sm-12 {
+    width: 100%;
+}
+
+.wine-newsletter {
+    height: 150px;
+    padding: 45px 0 0 0;
+}
+
+.col-sm-4 {
+    width: 33.33333333333333%;
+}
+
+.newsletter .heading {
+    padding-left: 67px;
+    position: relative;
+    margin-right: -15px;
+    font-size: 28px;
+}
+
+.newsletter .heading img {
+    display: block;
+    float: left;
+    margin: 0 34px 0 0;
+}
+
+.newsletter.wine-newsletter .heading p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.newsletter .content {
+    padding-bottom: 0;
+}
+
+.cnews.main-content .content {
+    padding: 0 0 20px 0;
+}
+
+.newsletter.wine-newsletter .content p {
+    text-align: left;
+    border-color: #a7a452;
+    color: #fff;
+    padding-left: 45px;
+}
+
+.newsletter .content p {
+    height: 50px;
+    border-left: 2px solid #fc741b;
+    padding: 17px 0 0 27px;
+    margin: 5px 0 0 15px;
+    text-align: center;
+}
+
+.wine-newsletter.newsletter .inputs {
+    padding-right: 50px;
+}
+
+.newsletter .inputs {
+    text-align: center;
+    padding-top: 3px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.newsletter .inputs input {
+    background: #fff;
+    margin-right: 8px;
+    width: 187px;
+    vertical-align: top;
+    height: 45px;
+    border-radius: 25px;
+}
+
+.newsletter .inputs .button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+    height: 45px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    vertical-align: top;
+    background-color: #afac5e;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sbeer img{  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+  padding: 30px;
+}
+
+.stext .wine_text_1{  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+  padding: 30px;
+}
+
+.stext .wine_text_2{  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+  /*padding: 30px;*/
+}
+
+.stext .sbutton{  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+ /* padding: 30px;*/
+}
+
+.sbeer img{
+       margin-left: 500px !important;
+}
+
+
+.stext .sbutton .btn-wine{
+  background-color: #b80b36 !important;
+  border-radius: 25px   !important;
+  color: white;
+  border:none;
+}
+
+
+

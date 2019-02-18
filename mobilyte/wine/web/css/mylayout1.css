@@ -1,0 +1,85 @@
+.cnews.col-sm-12 {
+    width: 100%;
+}
+
+.cnews.wine-newsletter {
+    height: 150px;
+    padding: 45px 0 0 0;
+}
+
+.cnews.col-sm-4 {
+    width: 33.33333333333333%;
+}
+
+.cnews.newsletter .heading {
+    padding-left: 67px;
+    position: relative;
+    margin-right: -15px;
+}
+
+.cnews.newsletter .heading img {
+    display: block;
+    float: left;
+    margin: 0 34px 0 0;
+}
+
+.cnews.newsletter.wine-newsletter .heading p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.cnews.newsletter .content {
+    padding-bottom: 0;
+}
+
+.cnews.main-content .content {
+    padding: 0 0 20px 0;
+}
+
+.cnews.newsletter.wine-newsletter .content p {
+    text-align: left;
+    border-color: #a7a452;
+    color: #fff;
+    padding-left: 45px;
+}
+
+.cnews.newsletter .content p {
+    height: 50px;
+    border-left: 2px solid #fc741b;
+    padding: 17px 0 0 27px;
+    margin: 5px 0 0 15px;
+    text-align: center;
+}
+
+.cnews.wine-newsletter.newsletter .inputs {
+    padding-right: 50px;
+}
+
+.cnews.newsletter .inputs {
+    text-align: center;
+    padding-top: 3px;
+}
+
+.cnews form {
+    display: block;
+    margin-top: 0em;
+}
+
+.newsletter .inputs input {
+    background: #fff;
+    margin-right: 8px;
+    width: 187px;
+    vertical-align: top;
+    height: 45px;
+}
+
+.newsletter .inputs .button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+    height: 45px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    vertical-align: top;
+}

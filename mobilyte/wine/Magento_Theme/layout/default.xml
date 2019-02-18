@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks"/>
+    <body>
+        
+        <!-- <move element="my-account-link" destination="catalog.topnav"/>
+        <move element="wish-list-link" destination="catalog.topnav"/> -->
+
+       <!--  <move element="minicart-wrapper" destination="block-search" after="block-search"/> -->
+        
+<!--        <referenceContainer name="page.top">
+   <referenceBlock name="store.links" remove="true" />
+</referenceContainer>
+ -->        
+     <!-- <move element="store.links" destination="top.links"/> -->
+
+
+
+     	<!-- <referenceBlock name="header.container" remove="true" />
+<referenceContainer name="page.wrapper">
+    <block  class="Magento\Framework\View\Element\Template" name="top.header" template="Magento_Theme::customheader.phtml" before="header.container"/>
+</referenceContainer>    -->   
+
+<move element="minicart" destination="catalog.topnav" />
+ <move element="logo" destination="catalog.topnav"/>
+
+ <!-- <referenceBlock name="minicart" remove="true"/> -->
+
+ <referenceBlock name="footer_links" remove="true"/>
+  <referenceBlock name="form.subscribe" remove="true"/>
+
+  <referenceContainer name="header.container">
+ <referenceBlock name="top.search" remove="true"/>
+</referenceContainer>
+
+ <referenceBlock name="register-link" remove="true" />
+       <!-- <referenceBlock name="authorization-link" remove="true"/> -->
+
+       <!-- Magento\Customer\Block\Account\AuthorizationLink  has been changed in core to bring My Account heading-->
+
+       <referenceBlock name="top.links">
+           
+            <block class="Magento\Framework\View\Element\Html\Link" name="mycart.link" after="wish-list-link">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="false">Shopping Cart</argument>
+                    <argument name="path" xsi:type="string" translate="false">checkout/cart</argument>
+                    <argument name="class" xsi:type="string" translate="false">my-cart-link</argument>
+                </arguments>
+            </block>
+
+            <block class="Magento\Framework\View\Element\Html\Link" name="checkout.link" after="mycart.link">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="false">Checkout</argument>
+                    <argument name="path" xsi:type="string" translate="false">checkout/cart</argument>
+                    
+                </arguments>
+            </block>
+
+            <block class="Magento\Customer\Block\Account\Link" name="my-account-link">
+  				<arguments>
+   				<argument name="label" xsi:type="string" translate="true"></argument>
+   				<argument name="class" xsi:type="string" translate="true">account-link</argument>
+  				</arguments>
+			</block>
+
+        </referenceBlock>
+
+        <move element="my-account-link" destination="catalog.topnav" before="minicart"/>
+
+<!-- <referenceContainer name="page.top">
+	 <block class="Magento\Framework\View\Element\Template" name="navigation.sections" before="-" template="Magento_Theme::mysections.phtml"/>
+
+</referenceContainer> -->
+
+<!-- <move element="store_language" destination="top.header" /> -->
+
+
+
+    </body>
+</page>

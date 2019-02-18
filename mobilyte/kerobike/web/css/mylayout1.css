@@ -1,0 +1,30 @@
+.header.content.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 4px solid #325052;
+    margin: 0 auto;
+    max-width: 100%;
+    z-index: 1000;
+    
+  }
+
+/*.product-item {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}*/
+/*
+.product-item-info:hover{
+  opacity: 0.3;
+}*/
+
+.product-item-actions{
+	display: none;
+}
+
